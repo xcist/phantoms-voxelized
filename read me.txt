@@ -1,0 +1,8 @@
+### To use the voxelized phantom ###
+1. Unzip the phantom files to the CatSim phantom folder CatSim/catsim/data/phantom
+2. In the simulation cfg file, change the parameter `phantom.filename`. If you put the phantom files in another folder, specify the full path.
+
+For example, to simulate with Adult_Female_Standard_Lung_Phantom
+
+Edit CatSim/catsim/data/cfg/Phantom_Sample.cfg, 
+phantom.filename = 'adult_female_standard_lung.vp' or '[full path]/adult_female_standard_lung.vp' if phantom files are not in the phantom folder.
