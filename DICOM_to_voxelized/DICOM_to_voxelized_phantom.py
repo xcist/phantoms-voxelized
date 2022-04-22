@@ -19,7 +19,7 @@
 # 
 #  Outputs
 #    a .json file that describes the phantom
-#    a .raw file containing the HU images in one big file, easily read by ImageJ.
+#    a .raw file containing the input (HU) images in one big file, easily read by ImageJ.
 #    a .raw file for each material, containing the "volume fraction" of that material in each voxel.
 #
 # Author: Chad Bircher 8/18/2021
@@ -28,6 +28,7 @@
 # Copyright 2020, General Electric Company. All rights reserved. See https://github.com/xcist/code/blob/master/LICENSE
 #
 ######################################################################################################################
+
 from pathlib import Path
 import os
 import numpy as np
@@ -35,7 +36,7 @@ import re
 import pydicom
 import copy
 import json
-import matplotlib.pyplot as plt # possibly update to a prettier ploting tool such as plot.ly - TBD
+import matplotlib.pyplot as plt
 from catsim.GetMu  import GetMu
 from catsim.CommonTools import source_cfg
 
@@ -74,7 +75,7 @@ def initialize(phantom):
     #   Checks for the existence of the phantom folder/files.
     #   Creates a list of material volume fraction filenames that will be written.
     #   Allocates an array for the volume fraction data.
-    #   If they are not specified in the config file, calculates seqmentation thresholds.
+    #   If they are not specified in the config file, calculates segmentation thresholds.
     #   Creates a dictionary for material variables.
     # Inputs:
     #   phantom.dicom_path
