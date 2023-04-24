@@ -5,8 +5,8 @@
         "bone"
     ],
     "volumefractionmap_filename": [
-        "CatSim_logo_1024_water_1024x1024x1.raw",
-        "CatSim_logo_1024_bone_1024x1024x1.raw"
+        "CatSimLogo_1024_water_1024x1024x1.raw",
+        "CatSimLogo_1024_bone_1024x1024x1.raw"
     ],
     "volumefractionmap_datatype": [
         "float",
