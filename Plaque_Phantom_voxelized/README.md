@@ -4,7 +4,7 @@ This folder includes files for simulating a coronary plaque model using CatSim. 
 ![plaque overview picture](figures/Figure1.png "Volumetric rendering image and central cross-sections of the plaque model")
 Below shows the key geometry information of the plaque:
 ![plaque geometry picture](figures/Figure2.png "Dimensions for the key features of the plaque components")
-More details can be found in [our latest paper](https://arxiv.org/abs/2312.01566).
+More details can be found in [our latest paper](https://arxiv.org/abs/2312.01566) (a new arXiv version to be updated to reflect the vessel wall thickness change).
 
 ### Usage
 Please follow the steps below to use this plaque phantom for your simulation:
@@ -22,7 +22,7 @@ Please follow the steps below to use this plaque phantom for your simulation:
 1. Now you can start your simulation with CatSim.
 
 ### Citation
-If you find our plaque model helpful, please cite [our paper](https://arxiv.org/abs/2312.01566) and we will be thankful. If you have questions regarding the plaque model, please reach me at [lim34\@rpi.edu](mailto:lim34@rpi.edu?subject=QuestionsAboutThePlaqueModel). 
+If you find our plaque model helpful, please cite [our paper](https://arxiv.org/abs/2312.01566) and we will be thankful. If you have questions regarding the plaque model, you can reach me at [lim34\@rpi.edu](mailto:lim34@rpi.edu?subject=QuestionsAboutThePlaqueModel). 
 ```
 @article{li2023coronary,
   title={Coronary Atherosclerotic Plaque Characterization with Photon-counting CT: a Simulation-based Feasibility Study},
