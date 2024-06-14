@@ -1,5 +1,5 @@
 ## Plaque Phantom-voxelized
-### Brief intro
+### Brief Intro
 This folder includes files for simulating a coronary plaque model using CatSim. Here are the volumetric rendering image and central cross-section images of the phantom:
 ![plaque overview picture](figures/Figure1.png "Volumetric rendering image and central cross-sections of the plaque model")
 Below shows the key geometry information of the plaque:
@@ -9,7 +9,9 @@ More details can be found in [our latest paper](https://arxiv.org/abs/2312.01566
 ### Usage
 Please follow the steps below to use this plaque phantom for your simulation:
 1. Download this folder *Plaque_phantom_voxelized*;
-1. Copy all files in the materials folder into your CatSim material folder under the path: *YourCatSimPath/base/materials/*;
+1. Copy all files in the materials folder into your CatSim material folder under the path: 
+    - For matlab version, copy files in *materials_matlab* folder to *YourCatSimPath/base/materials/*;
+    - For python version, copy files in *materials_python* folder to *YourCatSimPath/gecatsim/material/*;
 1. Add the path of this plaque model folder to your simulation environment searching path.
     - For matlab version CatSim, please add the following code into your simulation script:
     ```
